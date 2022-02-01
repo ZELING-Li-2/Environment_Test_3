@@ -1,6 +1,6 @@
 # location: spec/feature/integration_spec.rb
 require 'rails_helper'
-
+#I assume these are right but throw an application error when i try them because the fields described do not exist.
 RSpec.describe 'Creating a book', type: :feature do
   scenario 'valid inputs' do
     visit new_book_path
